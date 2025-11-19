@@ -11,7 +11,7 @@ struct Student {
 int findStudent(struct Student students[], int size, char target[]) {
     for (int i = 0; i < size; i++) {
         if (strcmp(students[i].name, target) == 0) {
-            return i; // trả về vị trí nếu tìm thấy
+            return i; 
         }
     }
     return -1;
@@ -57,4 +57,5 @@ int main() {
 
     return 0;
 }
+
 
